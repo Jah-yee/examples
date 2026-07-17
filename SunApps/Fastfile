@@ -72,7 +72,7 @@ end
 
 error do
   slack(
-    message: "An error occured while deploying app #{app_id}",
+    message: "An error occurred while deploying app #{app_id}",
     success: false
   )
 end
